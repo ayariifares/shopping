@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website - shopping cart</title>
+    <!--link to css-->
+    <link rel="stylesheet" href="Style.css">
+<!--boxicons-->
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <a href="#" class="logo">Ecommerce</a>
+            <!-- cart-icon -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <!--cart-->
+            <div class="cart">
+                <h2 class="cart-title">Your cart</h2>
+                <!--content-->
+                <div class="cart-content">
+
+            </div>
+            <!--Total-->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+
+            </div>
+            <!--Buy button-->
+            <button type="button" class="btn-buy">Buy Now</button>
+            <!-- Cart Close-->
+            <i class='bx bx-x' id="close-cart"></i>
+
+        </div>
+        </div>
+    </header>
+    <!--shop-->
+    <section class="shop container">
+        <h2 class="section-title">shop products</h2>
+        <!-- content -->
+       <div class="shop-content">
+        <!-- box 1 -->
+        <div class="product-box">
+            <img src="img/product1.jpg" alt="" class="product-img">
+            <h2 class="product-title">AEROREADY SHIRT</h2>
+           <span class="price">$25</span>
+           <i class='bx bx-shopping-bag add-cart'></i>
+           <!--button moins-->
+      <button class="btn-moins">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="30" height="30"
+        viewBox="0 0 172 172"
+        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#2da345"><path d="M86,17.2c-37.9948,0 -68.8,30.8052 -68.8,68.8c0,37.9948 30.8052,68.8 68.8,68.8c37.9948,0 68.8,-30.8052 68.8,-68.8c0,-37.9948 -30.8052,-68.8 -68.8,-68.8zM120.4,91.73333h-68.8c-3.1648,0 -5.73333,-2.5628 -5.73333,-5.73333c0,-3.17053 2.56853,-5.73333 5.73333,-5.73333h68.8c3.1648,0 5.73333,2.5628 5.73333,5.73333c0,3.17053 -2.56853,5.73333 -5.73333,5.73333z"></path></g></g></svg></button>
+   <!--compteur initié a zero -->
+   <span class="quantity">0</span>
+     <!--button plus -->
+               <button class="btn-plus">
+             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+             width="30" height="30"
+             viewBox="0 0 172 172"
+             style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#2da345"><path d="M86,17.2c-37.9948,0 -68.8,30.8052 -68.8,68.8c0,37.9948 30.8052,68.8 68.8,68.8c37.9948,0 68.8,-30.8052 68.8,-68.8c0,-37.9948 -30.8052,-68.8 -68.8,-68.8zM120.4,91.73333h-28.66667v28.66667c0,3.17053 -2.56853,5.73333 -5.73333,5.73333c-3.1648,0 -5.73333,-2.5628 -5.73333,-5.73333v-28.66667h-28.66667c-3.1648,0 -5.73333,-2.5628 -5.73333,-5.73333c0,-3.17053 2.56853,-5.73333 5.73333,-5.73333h28.66667v-28.66667c0,-3.17053 2.56853,-5.73333 5.73333,-5.73333c3.1648,0 5.73333,2.5628 5.73333,5.73333v28.66667h28.66667c3.1648,0 5.73333,2.5628 5.73333,5.73333c0,3.17053 -2.56853,5.73333 -5.73333,5.73333z"></path></g></g></svg></button>
+         </div>
+       </div>
+      <!-- box 2 -->
+      <div class="product-box">
+        <img src="img/product2.jpg" alt="" class="product-img">
+        <h2 class="product-title">WIRELESS EARBUDS</h2>
+       <span class="price">$100</span>
+       <i class='bx bx-shopping-bag add-cart'></i>
+       <!--button moins-->
+      <button class="btn-moins">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="30" height="30"
+        viewBox="0 0 172 172"
+        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#2da345"><path d="M86,17.2c-37.9948,0 -68.8,30.8052 -68.8,68.8c0,37.9948 30.8052,68.8 68.8,68.8c37.9948,0 68.8,-30.8052 68.8,-68.8c0,-37.9948 -30.8052,-68.8 -68.8,-68.8zM120.4,91.73333h-68.8c-3.1648,0 -5.73333,-2.5628 -5.73333,-5.73333c0,-3.17053 2.56853,-5.73333 5.73333,-5.73333h68.8c3.1648,0 5.73333,2.5628 5.73333,5.73333c0,3.17053 -2.56853,5.73333 -5.73333,5.73333z"></path></g></g></svg></button>
+   <!--compteur initié a zero -->
+
+   <span class="quantity">0</span>
+   <!--button plus -->
+             <button class="btn-plus">
+           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+           width="30" height="30"
+           viewBox="0 0 172 172"
+           style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#2da345"><path d="M86,17.2c-37.9948,0 -68.8,30.8052 -68.8,68.8c0,37.9948 30.8052,68.8 68.8,68.8c37.9948,0 68.8,-30.8052 68.8,-68.8c0,-37.9948 -30.8052,-68.8 -68.8,-68.8zM120.4,91.73333h-28.66667v28.66667c0,3.17053 -2.56853,5.73333 -5.73333,5.73333c-3.1648,0 -5.73333,-2.5628 -5.73333,-5.73333v-28.66667h-28.66667c-3.1648,0 -5.73333,-2.5628 -5.73333,-5.73333c0,-3.17053 2.56853,-5.73333 5.73333,-5.73333h28.66667v-28.66667c0,-3.17053 2.56853,-5.73333 5.73333,-5.73333c3.1648,0 5.73333,2.5628 5.73333,5.73333v28.66667h28.66667c3.1648,0 5.73333,2.5628 5.73333,5.73333c0,3.17053 -2.56853,5.73333 -5.73333,5.73333z"></path></g></g></svg></button>
+       </div>
+   </div>
+     <!-- box 3 -->
+     <div class="product-box">
+        <img src="img/product3.jpg" alt="" class="product-img">
+        <h2 class="product-title">HODDED PARKA</h2>
+       <span class="price">$45</span>
+       <i class='bx bx-shopping-bag add-cart'></i>
+       <!--button moins-->
+      <button class="btn-moins">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
